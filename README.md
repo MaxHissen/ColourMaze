@@ -1,5 +1,5 @@
 # ColourMaze
-This is a game that I made in 2021. While it could have been written better, I've decided to upload it as is to show authenticity.
+This is a game that I made in November 2022. While it could have been written better, I've decided to upload it as is, in order to show progression over the past couple years.
 
 I first got the idea when me and my dad were thinking about multi-dimensional mazes and how they could be displayed in 2D. The final product looks pretty cool though and is fun to play as well, although incredibly difficult.<br>
 
