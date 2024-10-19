@@ -16,9 +16,26 @@ File that runs the mazes
 ### how to play:
 **Warning:** <br>
 To play the game, just run the "colour maze.py" file. It requires pygame and the maze txt files to run.<br>
-there is no undo or restart, so if you get stuck you'll need to kill the program and run it again. **I also can't stress enough how hard this game gets** <br>
 
-**Controls:** <br>
+When opened, the game will prompt you to input a size of maze. All mazes are square, so input the side length.<br>
+
+It will then display a list of mazes by solution length. Input one of them as a number.<br><br>
+
+![image](https://github.com/user-attachments/assets/6e70b181-e8a0-4ca0-84a0-f99528fc9c5a)
+
+<br><br>
+
+Once this is complete, the game will open in a pygame window.<br><br>
+
+![image](https://github.com/user-attachments/assets/f22cf654-f789-4153-b48a-af85e84df9a6)
+
+<br><br>
+
+there is no undo or restart, so if you get stuck you'll need to kill the program and run it again. **I also can't stress enough how hard this game can be** <br>
+
+
+
+### Controls: <br>
 WASD to move<br>
 P - Select top colour<br>
 L - Select bottom colour<br>
