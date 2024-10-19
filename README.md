@@ -7,6 +7,8 @@ Game is played through "**colour maze.py**"<br>
 Mazes are found via "**discover mazes.py**"<br>
 You can cheat the solution with "**solve maze.py**"<br>
 
+<br>
+<br>
 
 ## colour maze.py
 File that runs the mazes
@@ -22,8 +24,10 @@ P - Select top colour<br>
 L - Select bottom colour<br>
 The goal is to reach the bottom right of the maze
 
-To pass through a wall, your top or bottom needs to be that colour. For example a red wall can only be moved through if your top and/or bottom is red. If your top is red and bottom is blue, that will allow you to pass through walls that are either red or blue.
+To pass through a wall, your top or bottom needs to be that colour. For example a red wall can only be moved through if your top and/or bottom is red. If your top is red and bottom is blue, that will allow you to pass through walls that are either red or blue. **Grey walls cannot be passed through.**
 
+<br>
+<br>
 
 ## solve maze.py
 
@@ -58,6 +62,24 @@ T - get cell top colour<br>
 B - get cell bottom colour<br>
 
 This should take n button presses, where n is the length of the solution<br>
+
+<br>
+<br>
+
+## discover mazes.py
+
+### How it works:
+The maze generation first reads out all the mazes of that size from the text file, and stores them in a dictionary.<br>
+It then randomly sets mazes of that size, and tries to solve them. If it finds a maze that has a solution not yet found, it gets added to the dictionary.<br>
+At the end, it clears the file and writes the dictionary in order
+
+### how to use:<br>
+
+Edit parameters as you see fit<br>
+![image](https://github.com/user-attachments/assets/4e7e5722-8c5d-43f1-9447-f6dc5608ef0f)<br>
+wall_colours and cell_colours are the colours that the maze will choose from when creating the next random maze to test. The more of each there are the more biased the maze will be towards that colour. 1=RED, 2=BLUE, 3=GREEN, 4=YELLOW, 5=PURPLE, 6=WHITE.<br>
+grey walls are 9, a cell with no colour is 0.<br>
+If wall_colours has 3 1's in it, any given wall is 3x more likely to be red when creating the random maze.<br>
 
 # Problems
 There's little error handling when inputting desired maze size and length, and when inputting the code of the maze to find the solution for.
