@@ -36,21 +36,23 @@ It does work perfectly though, so if you are stuck on a maze, below are steps on
 
 ### how to use:<br>
 
-Edit the program to have the size of maze to solve.<br>
+Edit the program to have the size of maze to solve.<br><br>
 ![image](https://github.com/user-attachments/assets/95528b7d-00e5-4e9f-8869-a7f78f898f1c)
 
 
-run the program, and copy-paste in the code for the maze you want to solve. Mazes can be easily told apart by their length at the end of the respective line.<br>
+run the program, and copy-paste in the code for the maze you want to solve. Mazes can be easily told apart by their length at the end of the respective line.<br><br>
 ![image](https://github.com/user-attachments/assets/b318bae9-973a-4d17-9af6-1fe008ffcb16)
 
 paste the resulting line into the solver:<br>
+<br>
 ![image](https://github.com/user-attachments/assets/63cec88c-3079-40e7-b0d4-41ac7a610e0d)
-
+<br>
+<br>
 ![image](https://github.com/user-attachments/assets/e701aa91-b6d7-4e8f-b16a-00c8add3ab3c)
 
 
 press enter and the program will decode the maze, solve it from scratch, and output what you need to do to solve it (in the shortest way. **There will always be a longer way to solve a maze**).<br>
-Take the solution for 3x3 length 14 as in the screenshots above:<br>
+Take the solution for 3x3 length 14 as in the screenshots above:<br><br>
 ![image](https://github.com/user-attachments/assets/361ffa4b-91d0-4106-93c0-27910da6748b)
 
 
@@ -75,8 +77,8 @@ At the end, it clears the file and writes the dictionary in order
 
 ### how to use:<br>
 
-Edit parameters as you see fit<br>
-![image](https://github.com/user-attachments/assets/4e7e5722-8c5d-43f1-9447-f6dc5608ef0f)<br>
+Edit parameters as you see fit<br><br>
+![image](https://github.com/user-attachments/assets/4e7e5722-8c5d-43f1-9447-f6dc5608ef0f)<br><br>
 wall_colours and cell_colours are the colours that the maze will choose from when creating the next random maze to test. The more of each there are the more biased the maze will be towards that colour. 1=RED, 2=BLUE, 3=GREEN, 4=YELLOW, 5=PURPLE, 6=WHITE.<br>
 grey walls are 9, a cell with no colour is 0.<br>
 If wall_colours has 3 1's in it, any given wall is 3x more likely to be red when creating the random maze.<br>
