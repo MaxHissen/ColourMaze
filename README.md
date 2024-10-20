@@ -1,11 +1,14 @@
 # ColourMaze
 This is a game that I made in November 2022. While it could have been written better, I've decided to upload it as is, in order to show progression over the past couple years.
 
+![Maze Game Example - Made with Clipchamp (2)](https://github.com/user-attachments/assets/b2ae1a23-635e-492e-a4cd-28e12fd54c54)<br>
+
+
 I first got the idea when me and my dad were thinking about multi-dimensional mazes and how they could be displayed in 2D. The final product looks pretty cool though and is fun to play as well, although incredibly difficult.<br>
 
 Game is played through "**colour maze.py**"<br>
 Mazes are found via "**discover mazes.py**"<br>
-You can cheat the solution with "**solve maze.py**"<br>
+You can get the solution of a level with "**solve maze.py**"<br>
 
 <br>
 <br>
